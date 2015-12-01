@@ -23,6 +23,9 @@ var complimentsController = {
     res.render('compliments/edit.hbs', {
       compliment: Compliment.find([req.params.id])
     });
+  },
+  update: function(req, res){
+    res.send('tootllo git ham!!!!');
   }
  // update action code goes here...
 }
